@@ -1,0 +1,66 @@
+2021-07-11 21:36:08,531 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 1.0016666666666667, removed pallet
+2021-07-11 21:36:08,548 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9933333333333333, removed pallet
+2021-07-11 21:36:08,548 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.985, removed pallet
+2021-07-11 21:36:08,548 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9766666666666667, removed pallet
+2021-07-11 21:36:08,549 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9683333333333334, removed pallet
+2021-07-11 21:36:08,549 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.96, removed pallet
+2021-07-11 21:36:08,549 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9516666666666667, removed pallet
+2021-07-11 21:36:10,535 INFO [pool-2-thread-95] com.company.task5.entity.Terminal - Terminal 5 finished processing van 95
+2021-07-11 21:36:10,535 INFO [pool-2-thread-117] com.company.task5.entity.Terminal - Terminal 5 started processing van 117
+2021-07-11 21:36:10,566 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9576666666666667, removed pallet
+2021-07-11 21:36:10,659 INFO [pool-2-thread-101] com.company.task5.entity.Terminal - Terminal 7 finished processing van 101
+2021-07-11 21:36:10,659 INFO [pool-2-thread-118] com.company.task5.entity.Terminal - Terminal 7 started processing van 118
+2021-07-11 21:36:10,675 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.979, removed pallet
+2021-07-11 21:36:10,675 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9706666666666667, removed pallet
+2021-07-11 21:36:10,675 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9623333333333334, removed pallet
+2021-07-11 21:36:10,675 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.954, removed pallet
+2021-07-11 21:36:10,828 INFO [pool-2-thread-99] com.company.task5.entity.Terminal - Terminal 3 finished processing van 99
+2021-07-11 21:36:10,828 INFO [pool-2-thread-122] com.company.task5.entity.Terminal - Terminal 3 started processing van 122
+2021-07-11 21:36:10,890 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9623333333333334, removed pallet
+2021-07-11 21:36:10,890 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.954, removed pallet
+2021-07-11 21:36:11,153 INFO [pool-2-thread-110] com.company.task5.entity.Terminal - Terminal 9 finished processing van 110
+2021-07-11 21:36:11,153 INFO [pool-2-thread-123] com.company.task5.entity.Terminal - Terminal 9 started processing van 123
+2021-07-11 21:36:11,215 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9703333333333334, removed pallet
+2021-07-11 21:36:11,215 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.962, removed pallet
+2021-07-11 21:36:11,215 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9536666666666667, removed pallet
+2021-07-11 21:36:11,556 INFO [pool-2-thread-96] com.company.task5.entity.Terminal - Terminal 10 finished processing van 96
+2021-07-11 21:36:11,556 INFO [pool-2-thread-124] com.company.task5.entity.Terminal - Terminal 10 started processing van 124
+2021-07-11 21:36:11,645 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9603333333333334, removed pallet
+2021-07-11 21:36:11,645 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.952, removed pallet
+2021-07-11 21:36:12,829 INFO [pool-2-thread-113] com.company.task5.entity.Terminal - Terminal 8 finished processing van 113
+2021-07-11 21:36:12,829 INFO [pool-2-thread-125] com.company.task5.entity.Terminal - Terminal 8 started processing van 125
+2021-07-11 21:36:12,937 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9753333333333334, removed pallet
+2021-07-11 21:36:12,937 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.967, removed pallet
+2021-07-11 21:36:12,937 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9586666666666667, removed pallet
+2021-07-11 21:36:12,937 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9503333333333334, removed pallet
+2021-07-11 21:36:13,168 INFO [pool-2-thread-123] com.company.task5.entity.Terminal - Terminal 9 finished processing van 123
+2021-07-11 21:36:13,262 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9586666666666667, removed pallet
+2021-07-11 21:36:13,262 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9503333333333334, removed pallet
+2021-07-11 21:36:13,973 INFO [pool-2-thread-28] com.company.task5.entity.Terminal - Terminal 1 finished processing van 28
+2021-07-11 21:36:14,392 INFO [pool-2-thread-103] com.company.task5.entity.Terminal - Terminal 6 finished processing van 103
+2021-07-11 21:36:14,454 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9756666666666667, removed pallet
+2021-07-11 21:36:14,454 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9673333333333334, removed pallet
+2021-07-11 21:36:14,454 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.959, removed pallet
+2021-07-11 21:36:14,454 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9506666666666667, removed pallet
+2021-07-11 21:36:15,058 INFO [pool-2-thread-124] com.company.task5.entity.Terminal - Terminal 10 finished processing van 124
+2021-07-11 21:36:15,106 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9733333333333334, removed pallet
+2021-07-11 21:36:15,106 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.965, removed pallet
+2021-07-11 21:36:15,106 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9566666666666667, removed pallet
+2021-07-11 21:36:15,136 INFO [pool-2-thread-125] com.company.task5.entity.Terminal - Terminal 8 finished processing van 125
+2021-07-11 21:36:15,212 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.96, removed pallet
+2021-07-11 21:36:15,212 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9516666666666667, removed pallet
+2021-07-11 21:36:16,026 INFO [pool-2-thread-114] com.company.task5.entity.Terminal - Terminal 2 finished processing van 114
+2021-07-11 21:36:16,072 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.951, removed pallet
+2021-07-11 21:36:17,169 INFO [pool-2-thread-118] com.company.task5.entity.Terminal - Terminal 7 finished processing van 118
+2021-07-11 21:36:17,262 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9676666666666667, removed pallet
+2021-07-11 21:36:17,262 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9593333333333334, removed pallet
+2021-07-11 21:36:17,262 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.951, removed pallet
+2021-07-11 21:36:17,722 INFO [pool-2-thread-115] com.company.task5.entity.Terminal - Terminal 4 finished processing van 115
+2021-07-11 21:36:17,799 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9643333333333334, removed pallet
+2021-07-11 21:36:17,799 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.956, removed pallet
+2021-07-11 21:36:19,642 INFO [pool-2-thread-122] com.company.task5.entity.Terminal - Terminal 3 finished processing van 122
+2021-07-11 21:36:19,748 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9783333333333334, removed pallet
+2021-07-11 21:36:19,748 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.97, removed pallet
+2021-07-11 21:36:19,748 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9616666666666667, removed pallet
+2021-07-11 21:36:19,748 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9533333333333334, removed pallet
+2021-07-11 21:36:20,041 INFO [pool-2-thread-117] com.company.task5.entity.Terminal - Terminal 5 finished processing van 117
