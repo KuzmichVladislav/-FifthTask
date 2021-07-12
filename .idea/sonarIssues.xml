@@ -3,12 +3,12 @@
   <component name="issues">
     <option name="index">
       <map>
-        <entry key="/Dummy.jstd">
+        <entry key="/a.dummy">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="/a.dummy">
+        <entry key="$PROJECT_DIR$/../Task3/pom.xml">
           <value>
             <set />
           </value>
@@ -113,37 +113,12 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/com/company/task5/reader/TruckIdGenerator.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/com/company/task5/util/TerminalIdGenerator.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/com/company/task5/util/TruckIdGenerator.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/com/company/task5/util/VanIdGenerator.java">
-          <value>
-            <set />
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/src/main/resources/data/data.txt">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/resources/log4j2.xml">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../Task3/pom.xml">
           <value>
             <set />
           </value>

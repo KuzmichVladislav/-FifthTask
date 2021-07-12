@@ -10,6 +10,7 @@ public class DataParser {
         String[] truckParams = dataString.split(WHITE_SPACE_DELIMITER_REGEX);
         boolean perishable = Boolean.parseBoolean(truckParams[0]);
         int truckCapacity = Integer.parseInt(truckParams[1]);
-        return new Truck(perishable, truckCapacity);
+        Truck.Action action = Truck.Action.valueOf(truckParams[2]);
+        return new Truck(perishable, truckCapacity,action);
     }
 }

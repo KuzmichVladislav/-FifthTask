@@ -4,8 +4,6 @@ import com.company.task5.entity.Truck;
 import com.company.task5.exception.LogisticException;
 import com.company.task5.parser.DataParser;
 import com.company.task5.reader.DataReader;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 import java.io.File;
 import java.net.URL;
