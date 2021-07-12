@@ -15,7 +15,6 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class Main {
-    private static final Logger logger = LogManager.getLogger();
     private static final String RELATIVE_FILE_PATH = "data/data.txt";
 
     public static void main(String[] args) {
@@ -36,7 +35,7 @@ public class Main {
         List<Truck> trucks = new ArrayList<>();
 
         for (String dataString : dataStrings) {
-            Truck truck = parser.parseVan(dataString);
+            Truck truck = parser.parseTruck(dataString);
             trucks.add(truck);
         }
 

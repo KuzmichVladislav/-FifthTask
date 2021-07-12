@@ -19,17 +19,14 @@ public class LogisticsCenter {
     private final Deque<Condition> waitingThreads = new ArrayDeque<>();
     private final int capacity;
     private final int maxWorkload;
-    private final int trackTaskPeriod;
     private final double lowerLoadThreshold;
     private final double upperLoadThreshold;
     private final AtomicInteger currentWorkload = new AtomicInteger(0);
     private int palletNumber;
 
-    private LogisticsCenter(int capacity, int maxWorkload, int trackTaskPeriod,
-                            double lowerLoadThreshold, double upperLoadThreshold) {
+    private LogisticsCenter(int capacity, int maxWorkload, double lowerLoadThreshold, double upperLoadThreshold) {
         this.capacity = capacity;
         this.maxWorkload = maxWorkload;
-        this.trackTaskPeriod = trackTaskPeriod;
         this.lowerLoadThreshold = lowerLoadThreshold;
         this.upperLoadThreshold = upperLoadThreshold;
 
@@ -107,12 +104,12 @@ public class LogisticsCenter {
                 }
                 while (loadFactor > upperLoadThreshold) {
                     removePallet();
-                    logger.info("The warehouse is " + loadFactor + "percent full, removed 1000 pallet");
+                    logger.info("The warehouse is " + loadFactor + " percent full, removed 1000 pallet");
                     workload = currentWorkload.get();
                     loadFactor = (double) workload / maxWorkload;
                 }
             }
-        }, 0, trackTaskPeriod);
+        }, 0, 1000);
     }
 
     public int getPalletNumber() {
@@ -120,6 +117,6 @@ public class LogisticsCenter {
     }
 
     private static class LoadSingleton {
-        static final LogisticsCenter INSTANCE = new LogisticsCenter(10, 3000, 100, 0.15, 0.95);
+        static final LogisticsCenter INSTANCE = new LogisticsCenter(10, 3000, 0.1, 0.95);
     }
 }

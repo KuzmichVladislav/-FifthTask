@@ -39,28 +39,4 @@ public class Terminal {
         palletNumber = truck.getTruckCapacity();
         logger.info("At terminal " + getTerminalId() + " unloading of the truck" + truck.getTruckId() + " is completed");
     }
-
-    @Override
-    public int hashCode() {
-        return Long.hashCode(terminalId);
-    }
-
-    @Override
-    public boolean equals(Object obj) {
-        if (this == obj) {
-            return true;
-        }
-
-        if (obj == null || getClass() != obj.getClass()) {
-            return false;
-        }
-
-        Terminal terminal = (Terminal) obj;
-        return terminalId == terminal.terminalId;
-    }
-
-    @Override
-    public String toString() {
-        return "Terminal " + terminalId;
-    }
 }
