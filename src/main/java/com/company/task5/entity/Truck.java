@@ -1,24 +1,25 @@
 package com.company.task5.entity;
 
-import com.company.task5.util.VanIdGenerator;
+
+import com.company.task5.util.TruckIdGenerator;
 
 public class Truck extends Thread {
-    private final long vanId;
+    private final long truckId;
     private boolean perishable;
     private int truckCapacity;
     private Task task;
-    private State vanState;
+    private Status truckStatus;
 
     public Truck(boolean perishable, int truckCapacity) {
-        this.vanId = VanIdGenerator.generateId();
+        this.truckId = TruckIdGenerator.generateId();
         this.perishable = perishable;
         this.truckCapacity = truckCapacity;
         task = Task.LOAD;
-        this.vanState = State.NEW;
+        this.truckStatus = Status.NEW;
     }
 
-    public long getVanId() {
-        return vanId;
+    public long getTruckId() {
+        return truckId;
     }
 
     public boolean isPerishable() {
@@ -45,12 +46,12 @@ public class Truck extends Thread {
         this.task = task;
     }
 
-    public State getVanState() {
-        return vanState;
+    public Status getTruckStatus() {
+        return truckStatus;
     }
 
-    public void setVanState(State vanState) {
-        this.vanState = vanState;
+    public void setTruckStatus(Status truckStatus) {
+        this.truckStatus = truckStatus;
     }
 
     @Override
@@ -59,9 +60,10 @@ public class Truck extends Thread {
         Terminal terminal = base.acquireTerminal(perishable);
         terminal.process(this);
 
-        switch (task) {
-            case LOAD -> base.addPallet();
-            case UNLOAD -> base.removePallet();
+        if (task == Task.LOAD) {
+            base.addPallet();
+        } else if (task == Task.UNLOAD) {
+            base.removePallet();
         }
         base.releaseTerminal(terminal);
     }
@@ -73,33 +75,34 @@ public class Truck extends Thread {
 
         Truck truck = (Truck) o;
 
-        if (getVanId() != truck.getVanId()) return false;
+        if (getTruckId() != truck.getTruckId()) return false;
         if (isPerishable() != truck.isPerishable()) return false;
         if (getTask() != truck.getTask()) return false;
-        return getVanState() == truck.getVanState();
+        return getTruckStatus() == truck.getTruckStatus();
     }
 
     @Override
     public int hashCode() {
-        int result = (int) (getVanId() ^ (getVanId() >>> 32));
+        int result = (int) (getTruckId() ^ (getTruckId() >>> 32));
         result = 31 * result + (isPerishable() ? 1 : 0);
         result = 31 * result + (getTask() != null ? getTask().hashCode() : 0);
-        result = 31 * result + (getVanState() != null ? getVanState().hashCode() : 0);
+        result = 31 * result + (getTruckStatus() != null ? getTruckStatus().hashCode() : 0);
         return result;
     }
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("Van{");
-        sb.append("vanId=").append(vanId);
+        final StringBuilder sb = new StringBuilder("Truck{");
+        sb.append("truckId=").append(truckId);
         sb.append(", perishable=").append(perishable);
+        sb.append(", truckCapacity=").append(truckCapacity);
         sb.append(", task=").append(task);
-        sb.append(", vanState=").append(vanState);
+        sb.append(", truckStatus=").append(truckStatus);
         sb.append('}');
         return sb.toString();
     }
 
-    public enum State {
+    public enum Status {
         NEW, PROCESSING, FINISHED;
     }
 

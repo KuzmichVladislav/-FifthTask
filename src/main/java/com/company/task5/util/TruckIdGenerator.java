@@ -1,10 +1,9 @@
 package com.company.task5.util;
 
-public class VanIdGenerator {
+public class TruckIdGenerator {
     private static long count;
 
-    private VanIdGenerator() {
-
+    private TruckIdGenerator() {
     }
 
     public static long generateId() {

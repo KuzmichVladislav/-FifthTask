@@ -1,66 +1,77 @@
-2021-07-11 21:36:08,531 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 1.0016666666666667, removed pallet
-2021-07-11 21:36:08,548 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9933333333333333, removed pallet
-2021-07-11 21:36:08,548 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.985, removed pallet
-2021-07-11 21:36:08,548 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9766666666666667, removed pallet
-2021-07-11 21:36:08,549 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9683333333333334, removed pallet
-2021-07-11 21:36:08,549 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.96, removed pallet
-2021-07-11 21:36:08,549 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9516666666666667, removed pallet
-2021-07-11 21:36:10,535 INFO [pool-2-thread-95] com.company.task5.entity.Terminal - Terminal 5 finished processing van 95
-2021-07-11 21:36:10,535 INFO [pool-2-thread-117] com.company.task5.entity.Terminal - Terminal 5 started processing van 117
-2021-07-11 21:36:10,566 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9576666666666667, removed pallet
-2021-07-11 21:36:10,659 INFO [pool-2-thread-101] com.company.task5.entity.Terminal - Terminal 7 finished processing van 101
-2021-07-11 21:36:10,659 INFO [pool-2-thread-118] com.company.task5.entity.Terminal - Terminal 7 started processing van 118
-2021-07-11 21:36:10,675 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.979, removed pallet
-2021-07-11 21:36:10,675 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9706666666666667, removed pallet
-2021-07-11 21:36:10,675 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9623333333333334, removed pallet
-2021-07-11 21:36:10,675 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.954, removed pallet
-2021-07-11 21:36:10,828 INFO [pool-2-thread-99] com.company.task5.entity.Terminal - Terminal 3 finished processing van 99
-2021-07-11 21:36:10,828 INFO [pool-2-thread-122] com.company.task5.entity.Terminal - Terminal 3 started processing van 122
-2021-07-11 21:36:10,890 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9623333333333334, removed pallet
-2021-07-11 21:36:10,890 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.954, removed pallet
-2021-07-11 21:36:11,153 INFO [pool-2-thread-110] com.company.task5.entity.Terminal - Terminal 9 finished processing van 110
-2021-07-11 21:36:11,153 INFO [pool-2-thread-123] com.company.task5.entity.Terminal - Terminal 9 started processing van 123
-2021-07-11 21:36:11,215 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9703333333333334, removed pallet
-2021-07-11 21:36:11,215 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.962, removed pallet
-2021-07-11 21:36:11,215 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9536666666666667, removed pallet
-2021-07-11 21:36:11,556 INFO [pool-2-thread-96] com.company.task5.entity.Terminal - Terminal 10 finished processing van 96
-2021-07-11 21:36:11,556 INFO [pool-2-thread-124] com.company.task5.entity.Terminal - Terminal 10 started processing van 124
-2021-07-11 21:36:11,645 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9603333333333334, removed pallet
-2021-07-11 21:36:11,645 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.952, removed pallet
-2021-07-11 21:36:12,829 INFO [pool-2-thread-113] com.company.task5.entity.Terminal - Terminal 8 finished processing van 113
-2021-07-11 21:36:12,829 INFO [pool-2-thread-125] com.company.task5.entity.Terminal - Terminal 8 started processing van 125
-2021-07-11 21:36:12,937 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9753333333333334, removed pallet
-2021-07-11 21:36:12,937 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.967, removed pallet
-2021-07-11 21:36:12,937 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9586666666666667, removed pallet
-2021-07-11 21:36:12,937 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9503333333333334, removed pallet
-2021-07-11 21:36:13,168 INFO [pool-2-thread-123] com.company.task5.entity.Terminal - Terminal 9 finished processing van 123
-2021-07-11 21:36:13,262 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9586666666666667, removed pallet
-2021-07-11 21:36:13,262 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9503333333333334, removed pallet
-2021-07-11 21:36:13,973 INFO [pool-2-thread-28] com.company.task5.entity.Terminal - Terminal 1 finished processing van 28
-2021-07-11 21:36:14,392 INFO [pool-2-thread-103] com.company.task5.entity.Terminal - Terminal 6 finished processing van 103
-2021-07-11 21:36:14,454 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9756666666666667, removed pallet
-2021-07-11 21:36:14,454 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9673333333333334, removed pallet
-2021-07-11 21:36:14,454 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.959, removed pallet
-2021-07-11 21:36:14,454 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9506666666666667, removed pallet
-2021-07-11 21:36:15,058 INFO [pool-2-thread-124] com.company.task5.entity.Terminal - Terminal 10 finished processing van 124
-2021-07-11 21:36:15,106 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9733333333333334, removed pallet
-2021-07-11 21:36:15,106 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.965, removed pallet
-2021-07-11 21:36:15,106 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9566666666666667, removed pallet
-2021-07-11 21:36:15,136 INFO [pool-2-thread-125] com.company.task5.entity.Terminal - Terminal 8 finished processing van 125
-2021-07-11 21:36:15,212 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.96, removed pallet
-2021-07-11 21:36:15,212 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9516666666666667, removed pallet
-2021-07-11 21:36:16,026 INFO [pool-2-thread-114] com.company.task5.entity.Terminal - Terminal 2 finished processing van 114
-2021-07-11 21:36:16,072 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.951, removed pallet
-2021-07-11 21:36:17,169 INFO [pool-2-thread-118] com.company.task5.entity.Terminal - Terminal 7 finished processing van 118
-2021-07-11 21:36:17,262 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9676666666666667, removed pallet
-2021-07-11 21:36:17,262 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9593333333333334, removed pallet
-2021-07-11 21:36:17,262 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.951, removed pallet
-2021-07-11 21:36:17,722 INFO [pool-2-thread-115] com.company.task5.entity.Terminal - Terminal 4 finished processing van 115
-2021-07-11 21:36:17,799 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9643333333333334, removed pallet
-2021-07-11 21:36:17,799 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.956, removed pallet
-2021-07-11 21:36:19,642 INFO [pool-2-thread-122] com.company.task5.entity.Terminal - Terminal 3 finished processing van 122
-2021-07-11 21:36:19,748 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9783333333333334, removed pallet
-2021-07-11 21:36:19,748 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.97, removed pallet
-2021-07-11 21:36:19,748 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9616666666666667, removed pallet
-2021-07-11 21:36:19,748 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - Too big load factor: 0.9533333333333334, removed pallet
-2021-07-11 21:36:20,041 INFO [pool-2-thread-117] com.company.task5.entity.Terminal - Terminal 5 finished processing van 117
+2021-07-12 11:14:58,008 INFO [pool-2-thread-87] com.company.task5.entity.Terminal - At terminal 3 unloading of the truck87 is completed
+2021-07-12 11:14:58,022 INFO [pool-2-thread-97] com.company.task5.entity.Terminal - At terminal 3 unloading of the truck97 has begun
+2021-07-12 11:14:58,712 INFO [pool-2-thread-88] com.company.task5.entity.Terminal - At terminal 5 unloading of the truck88 is completed
+2021-07-12 11:14:58,712 INFO [pool-2-thread-98] com.company.task5.entity.Terminal - At terminal 5 unloading of the truck98 has begun
+2021-07-12 11:14:59,501 INFO [pool-2-thread-93] com.company.task5.entity.Terminal - At terminal 2 unloading of the truck93 is completed
+2021-07-12 11:14:59,501 INFO [pool-2-thread-99] com.company.task5.entity.Terminal - At terminal 2 unloading of the truck99 has begun
+2021-07-12 11:15:00,504 INFO [pool-2-thread-82] com.company.task5.entity.Terminal - At terminal 7 unloading of the truck82 is completed
+2021-07-12 11:15:00,504 INFO [pool-2-thread-100] com.company.task5.entity.Terminal - At terminal 7 unloading of the truck100 has begun
+2021-07-12 11:15:00,603 INFO [pool-2-thread-92] com.company.task5.entity.Terminal - At terminal 6 unloading of the truck92 is completed
+2021-07-12 11:15:00,603 INFO [pool-2-thread-101] com.company.task5.entity.Terminal - At terminal 6 unloading of the truck101 has begun
+2021-07-12 11:15:01,202 INFO [pool-2-thread-84] com.company.task5.entity.Terminal - At terminal 10 unloading of the truck84 is completed
+2021-07-12 11:15:01,202 INFO [pool-2-thread-103] com.company.task5.entity.Terminal - At terminal 10 unloading of the truck103 has begun
+2021-07-12 11:15:02,323 INFO [pool-2-thread-97] com.company.task5.entity.Terminal - At terminal 3 unloading of the truck97 is completed
+2021-07-12 11:15:02,323 INFO [pool-2-thread-104] com.company.task5.entity.Terminal - At terminal 3 unloading of the truck104 has begun
+2021-07-12 11:15:03,015 INFO [pool-2-thread-98] com.company.task5.entity.Terminal - At terminal 5 unloading of the truck98 is completed
+2021-07-12 11:15:03,015 INFO [pool-2-thread-110] com.company.task5.entity.Terminal - At terminal 5 unloading of the truck110 has begun
+2021-07-12 11:15:03,410 INFO [pool-2-thread-90] com.company.task5.entity.Terminal - At terminal 9 unloading of the truck90 is completed
+2021-07-12 11:15:03,410 INFO [pool-2-thread-113] com.company.task5.entity.Terminal - At terminal 9 unloading of the truck113 has begun
+2021-07-12 11:15:04,509 INFO [pool-2-thread-91] com.company.task5.entity.Terminal - At terminal 1 unloading of the truck91 is completed
+2021-07-12 11:15:04,509 INFO [pool-2-thread-114] com.company.task5.entity.Terminal - At terminal 1 unloading of the truck114 has begun
+2021-07-12 11:15:04,535 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - The warehouse is 0.9556666666666667percent full, removed 1000 pallet
+2021-07-12 11:15:05,608 INFO [pool-2-thread-101] com.company.task5.entity.Terminal - At terminal 6 unloading of the truck101 is completed
+2021-07-12 11:15:05,608 INFO [pool-2-thread-115] com.company.task5.entity.Terminal - At terminal 6 unloading of the truck115 has begun
+2021-07-12 11:15:05,909 INFO [pool-2-thread-95] com.company.task5.entity.Terminal - At terminal 8 unloading of the truck95 is completed
+2021-07-12 11:15:05,909 INFO [pool-2-thread-117] com.company.task5.entity.Terminal - At terminal 8 unloading of the truck117 has begun
+2021-07-12 11:15:06,406 INFO [pool-2-thread-100] com.company.task5.entity.Terminal - At terminal 7 unloading of the truck100 is completed
+2021-07-12 11:15:06,406 INFO [pool-2-thread-118] com.company.task5.entity.Terminal - At terminal 7 unloading of the truck118 has begun
+2021-07-12 11:15:06,906 INFO [pool-2-thread-99] com.company.task5.entity.Terminal - At terminal 2 unloading of the truck99 is completed
+2021-07-12 11:15:06,906 INFO [pool-2-thread-122] com.company.task5.entity.Terminal - At terminal 2 unloading of the truck122 has begun
+2021-07-12 11:15:07,306 INFO [pool-2-thread-96] com.company.task5.entity.Terminal - At terminal 4 unloading of the truck96 is completed
+2021-07-12 11:15:07,306 INFO [pool-2-thread-123] com.company.task5.entity.Terminal - At terminal 4 unloading of the truck123 has begun
+2021-07-12 11:15:07,519 INFO [pool-2-thread-110] com.company.task5.entity.Terminal - At terminal 5 unloading of the truck110 is completed
+2021-07-12 11:15:07,519 INFO [pool-2-thread-124] com.company.task5.entity.Terminal - At terminal 5 unloading of the truck124 has begun
+2021-07-12 11:15:07,626 INFO [pool-2-thread-104] com.company.task5.entity.Terminal - At terminal 3 unloading of the truck104 is completed
+2021-07-12 11:15:07,626 INFO [pool-2-thread-125] com.company.task5.entity.Terminal - At terminal 3 unloading of the truck125 has begun
+2021-07-12 11:15:08,412 INFO [pool-2-thread-113] com.company.task5.entity.Terminal - At terminal 9 unloading of the truck113 is completed
+2021-07-12 11:15:09,308 INFO [pool-2-thread-123] com.company.task5.entity.Terminal - At terminal 4 unloading of the truck123 is completed
+2021-07-12 11:15:09,928 INFO [pool-2-thread-125] com.company.task5.entity.Terminal - At terminal 3 unloading of the truck125 is completed
+2021-07-12 11:15:10,508 INFO [pool-2-thread-103] com.company.task5.entity.Terminal - At terminal 10 unloading of the truck103 is completed
+2021-07-12 11:15:11,021 INFO [pool-2-thread-124] com.company.task5.entity.Terminal - At terminal 5 unloading of the truck124 is completed
+2021-07-12 11:15:12,013 INFO [pool-2-thread-114] com.company.task5.entity.Terminal - At terminal 1 unloading of the truck114 is completed
+2021-07-12 11:15:12,910 INFO [pool-2-thread-118] com.company.task5.entity.Terminal - At terminal 7 unloading of the truck118 is completed
+2021-07-12 11:15:14,813 INFO [pool-2-thread-115] com.company.task5.entity.Terminal - At terminal 6 unloading of the truck115 is completed
+2021-07-12 11:15:15,413 INFO [pool-2-thread-117] com.company.task5.entity.Terminal - At terminal 8 unloading of the truck117 is completed
+2021-07-12 11:15:15,436 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - The warehouse is 0.9616666666666667percent full, removed 1000 pallet
+2021-07-12 11:15:15,709 INFO [pool-2-thread-122] com.company.task5.entity.Terminal - At terminal 2 unloading of the truck122 is completed
+2021-07-12 11:17:57,543 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - the warehouse load is too small: 0.0 percent, 100 pallets were added
+2021-07-12 11:17:57,544 INFO [pool-2-thread-15] com.company.task5.entity.Terminal - At terminal 3 unloading of the truck15 has begun
+2021-07-12 11:17:57,542 INFO [pool-2-thread-8] com.company.task5.entity.Terminal - At terminal 9 unloading of the truck8 has begun
+2021-07-12 11:17:57,541 INFO [pool-2-thread-7] com.company.task5.entity.Terminal - At terminal 2 unloading of the truck7 has begun
+2021-07-12 11:17:57,542 INFO [pool-2-thread-11] com.company.task5.entity.Terminal - At terminal 7 unloading of the truck11 has begun
+2021-07-12 11:17:57,543 INFO [pool-2-thread-12] com.company.task5.entity.Terminal - At terminal 6 unloading of the truck12 has begun
+2021-07-12 11:17:57,545 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - the warehouse load is too small: 0.03333333333333333 percent, 100 pallets were added
+2021-07-12 11:17:57,545 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - the warehouse load is too small: 0.06666666666666667 percent, 100 pallets were added
+2021-07-12 11:17:57,546 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - the warehouse load is too small: 0.1 percent, 100 pallets were added
+2021-07-12 11:17:57,546 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - the warehouse load is too small: 0.13333333333333333 percent, 100 pallets were added
+2021-07-12 11:17:57,542 INFO [pool-2-thread-17] com.company.task5.entity.Terminal - At terminal 10 unloading of the truck17 has begun
+2021-07-12 11:17:57,547 INFO [pool-2-thread-14] com.company.task5.entity.Terminal - At terminal 4 unloading of the truck14 has begun
+2021-07-12 11:17:57,547 INFO [pool-2-thread-10] com.company.task5.entity.Terminal - At terminal 8 unloading of the truck10 has begun
+2021-07-12 11:17:57,548 INFO [pool-2-thread-1] com.company.task5.entity.Terminal - At terminal 1 unloading of the truck1 has begun
+2021-07-12 11:17:57,542 INFO [pool-2-thread-13] com.company.task5.entity.Terminal - At terminal 5 unloading of the truck13 has begun
+2021-07-12 11:17:59,745 INFO [pool-2-thread-8] com.company.task5.entity.Terminal - At terminal 9 unloading of the truck8 is completed
+2021-07-12 11:17:59,747 INFO [pool-2-thread-121] com.company.task5.entity.Terminal - At terminal 9 unloading of the truck121 has begun
+2021-07-12 11:18:03,250 INFO [pool-2-thread-17] com.company.task5.entity.Terminal - At terminal 10 unloading of the truck17 is completed
+2021-07-12 11:18:03,250 INFO [pool-2-thread-119] com.company.task5.entity.Terminal - At terminal 10 unloading of the truck119 has begun
+2021-07-12 11:18:03,652 INFO [pool-2-thread-13] com.company.task5.entity.Terminal - At terminal 5 unloading of the truck13 is completed
+2021-07-12 11:18:03,652 INFO [pool-2-thread-120] com.company.task5.entity.Terminal - At terminal 5 unloading of the truck120 has begun
+2021-07-12 11:18:03,747 INFO [pool-2-thread-12] com.company.task5.entity.Terminal - At terminal 6 unloading of the truck12 is completed
+2021-07-12 11:18:03,750 INFO [pool-2-thread-116] com.company.task5.entity.Terminal - At terminal 6 unloading of the truck116 has begun
+2021-07-12 11:18:04,048 INFO [pool-2-thread-15] com.company.task5.entity.Terminal - At terminal 3 unloading of the truck15 is completed
+2021-07-12 11:18:04,048 INFO [pool-2-thread-111] com.company.task5.entity.Terminal - At terminal 3 unloading of the truck111 has begun
+2021-07-12 11:18:04,350 INFO [pool-2-thread-14] com.company.task5.entity.Terminal - At terminal 4 unloading of the truck14 is completed
+2021-07-12 11:18:04,350 INFO [pool-2-thread-112] com.company.task5.entity.Terminal - At terminal 4 unloading of the truck112 has begun
+2021-07-12 11:18:04,449 INFO [pool-2-thread-10] com.company.task5.entity.Terminal - At terminal 8 unloading of the truck10 is completed
+2021-07-12 11:18:04,450 INFO [pool-2-thread-109] com.company.task5.entity.Terminal - At terminal 8 unloading of the truck109 has begun
+2021-07-12 11:18:05,351 INFO [pool-2-thread-1] com.company.task5.entity.Terminal - At terminal 1 unloading of the truck1 is completed
+2021-07-12 11:18:05,352 INFO [pool-2-thread-105] com.company.task5.entity.Terminal - At terminal 1 unloading of the truck105 has begun

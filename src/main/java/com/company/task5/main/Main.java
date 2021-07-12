@@ -26,11 +26,13 @@ public class Main {
         DataParser parser = new DataParser();
 
         List<String> dataStrings = null;
+
         try {
             dataStrings = reader.readFromFile(absolutePath);
         } catch (LogisticException e) {
             e.printStackTrace();
         }
+
         List<Truck> trucks = new ArrayList<>();
 
         for (String dataString : dataStrings) {

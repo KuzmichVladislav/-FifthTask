@@ -7,7 +7,6 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.Timer;
 import java.util.TimerTask;
-import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
@@ -15,10 +14,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class LogisticsCenter {
     private static final Logger logger = LogManager.getLogger();
-    private static final AtomicBoolean instanceInitialized = new AtomicBoolean(false);
-    private static LogisticsCenter instance;
     private final Lock acquireReleaseLock = new ReentrantLock();
-    private int palletNumber;
     private final Deque<Terminal> availableTerminals = new ArrayDeque<>();
     private final Deque<Condition> waitingThreads = new ArrayDeque<>();
     private final int capacity;
@@ -27,8 +23,10 @@ public class LogisticsCenter {
     private final double lowerLoadThreshold;
     private final double upperLoadThreshold;
     private final AtomicInteger currentWorkload = new AtomicInteger(0);
+    private int palletNumber;
 
-    private LogisticsCenter(int capacity, int maxWorkload, int trackTaskPeriod, double lowerLoadThreshold, double upperLoadThreshold) {
+    private LogisticsCenter(int capacity, int maxWorkload, int trackTaskPeriod,
+                            double lowerLoadThreshold, double upperLoadThreshold) {
         this.capacity = capacity;
         this.maxWorkload = maxWorkload;
         this.trackTaskPeriod = trackTaskPeriod;
@@ -42,12 +40,7 @@ public class LogisticsCenter {
     }
 
     public static LogisticsCenter getInstance() {
-        while (instance == null) {
-            if (instanceInitialized.compareAndSet(false, true)) {
-                instance = new LogisticsCenter(10, 3000, 100, 0.15, 0.95);
-            }
-        }
-        return instance;
+        return LoadSingleton.INSTANCE;
     }
 
     public Terminal acquireTerminal(boolean perishable) {
@@ -67,7 +60,6 @@ public class LogisticsCenter {
                     Thread.currentThread().interrupt();
                 }
             }
-
             return availableTerminals.removeFirst();
         } finally {
             acquireReleaseLock.unlock();
@@ -81,7 +73,6 @@ public class LogisticsCenter {
             if (availableTerminals.size() <= capacity) {
                 availableTerminals.push(terminal);
                 Condition condition = waitingThreads.pollFirst();
-
                 if (condition != null) {
                     condition.signal();
                 }
@@ -89,7 +80,7 @@ public class LogisticsCenter {
         } finally {
             acquireReleaseLock.unlock();
         }
-        palletNumber =  terminal.getPalletNumber();
+        palletNumber = terminal.getPalletNumber();
     }
 
     public void addPallet() {
@@ -102,24 +93,21 @@ public class LogisticsCenter {
 
     private void scheduleTrackTask() {
         Timer timer = new Timer(true);
+
         timer.schedule(new TimerTask() {
             @Override
             public void run() {
                 int workload = currentWorkload.get();
                 double loadFactor = (double) workload / maxWorkload;
-
                 while (loadFactor < lowerLoadThreshold) {
                     currentWorkload.addAndGet(100);
-                    logger.info("Too small load factor: " + loadFactor + ", added pallet");
-
+                    logger.info("the warehouse load is too small: " + loadFactor + " percent, 100 pallets were added");
                     workload = currentWorkload.get();
                     loadFactor = (double) workload / maxWorkload;
                 }
-
                 while (loadFactor > upperLoadThreshold) {
                     removePallet();
-                    logger.info("Too big load factor: " + loadFactor + ", removed pallet");
-
+                    logger.info("The warehouse is " + loadFactor + "percent full, removed 1000 pallet");
                     workload = currentWorkload.get();
                     loadFactor = (double) workload / maxWorkload;
                 }
@@ -129,5 +117,9 @@ public class LogisticsCenter {
 
     public int getPalletNumber() {
         return palletNumber;
+    }
+
+    private static class LoadSingleton {
+        static final LogisticsCenter INSTANCE = new LogisticsCenter(10, 3000, 100, 0.15, 0.95);
     }
 }

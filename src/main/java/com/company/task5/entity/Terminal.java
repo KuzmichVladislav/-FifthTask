@@ -8,9 +8,8 @@ import org.apache.logging.log4j.Logger;
 import java.util.concurrent.TimeUnit;
 
 public class Terminal {
+
     private static final Logger logger = LogManager.getLogger();
-
-
     private final long terminalId;
     private int palletNumber;
 
@@ -27,18 +26,18 @@ public class Terminal {
     }
 
     public void process(Truck truck) {
-        truck.setVanState(Truck.State.PROCESSING);
-        logger.info("Terminal " + terminalId + " started processing van " + truck.getVanId());
+        truck.setTruckStatus(Truck.Status.PROCESSING);
+        logger.info("At terminal " + getTerminalId() + " unloading of the truck" + truck.getTruckId() + " has begun");
 
         try {
-            TimeUnit.MILLISECONDS.sleep(truck.getTruckCapacity() * 100);
+            TimeUnit.MILLISECONDS.sleep(100 * truck.getTruckCapacity());
         } catch (InterruptedException e) {
             logger.error("Caught an exception: ", e);
             Thread.currentThread().interrupt();
         }
-        truck.setVanState(Truck.State.FINISHED);
+        truck.setTruckStatus(Truck.Status.FINISHED);
         palletNumber = truck.getTruckCapacity();
-        logger.info("Terminal " + terminalId + " finished processing van " + truck.getVanId());
+        logger.info("At terminal " + getTerminalId() + " unloading of the truck" + truck.getTruckId() + " is completed");
     }
 
     @Override

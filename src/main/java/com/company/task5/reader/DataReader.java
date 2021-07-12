@@ -14,8 +14,7 @@ public class DataReader {
     public List<String> readFromFile(String filePath) throws LogisticException {
         try {
             Path path = Path.of(filePath);
-            return Files.lines(path)
-                    .collect(Collectors.toList());
+            return Files.lines(path).collect(Collectors.toList());
         } catch (InvalidPathException | IOException e) {
             throw new LogisticException("Unable to open file: " + filePath, e);
         }

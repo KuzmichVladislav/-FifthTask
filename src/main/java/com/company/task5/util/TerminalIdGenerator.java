@@ -4,7 +4,6 @@ public class TerminalIdGenerator {
     private static long count;
 
     private TerminalIdGenerator() {
-
     }
 
     public static long generateId() {
