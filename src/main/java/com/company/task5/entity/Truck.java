@@ -5,16 +5,35 @@ import com.company.task5.util.TruckIdGenerator;
 
 public class Truck implements Runnable {
     private final long truckId;
+    private Action action;
     private boolean perishable;
     private int truckCapacity;
     private Status truckStatus;
 
-    public Truck(boolean perishable, int truckCapacity) {
+    public enum Status {
+        NEW, PROCESSING, FINISHED
+    }
+
+    public enum Action{
+        UPLOADING, UNLOADING;
+    }
+
+    public Action getAction() {
+        return action;
+    }
+
+    public void setAction(Action action) {
+        this.action = action;
+    }
+
+    public Truck(boolean perishable, int truckCapacity, Action action) {
+        this.action = action;
         this.truckId = TruckIdGenerator.generateId();
         this.perishable = perishable;
         this.truckCapacity = truckCapacity;
         this.truckStatus = Status.NEW;
     }
+
 
     public long getTruckId() {
         return truckId;
@@ -34,14 +53,43 @@ public class Truck implements Runnable {
 
     @Override
     public void run() {
-        LogisticsCenter base = LogisticsCenter.getInstance();
-        Terminal terminal = base.acquireTerminal(isPerishable());
+        LogisticsCenter logisticCenter = LogisticsCenter.getInstance();
+        Terminal terminal = logisticCenter.acquireTerminal(isPerishable());
         terminal.process(this);
-        base.addPallet();
-        base.releaseTerminal(terminal);
+       // logisticCenter.processTruck(this.getTruckCapacity());
+        logisticCenter.releaseTerminal(terminal);
     }
 
-    public enum Status {
-        NEW, PROCESSING, FINISHED;
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Truck)) return false;
+
+        Truck truck = (Truck) o;
+
+        if (getTruckId() != truck.getTruckId()) return false;
+        if (isPerishable() != truck.isPerishable()) return false;
+        if (getTruckCapacity() != truck.getTruckCapacity()) return false;
+        return truckStatus == truck.truckStatus;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = (int) (getTruckId() ^ (getTruckId() >>> 32));
+        result = 31 * result + (isPerishable() ? 1 : 0);
+        result = 31 * result + getTruckCapacity();
+        result = 31 * result + (truckStatus != null ? truckStatus.hashCode() : 0);
+        return result;
+    }
+
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("Truck{");
+        sb.append("truckId=").append(truckId);
+        sb.append(", perishable=").append(perishable);
+        sb.append(", truckCapacity=").append(truckCapacity);
+        sb.append(", truckStatus=").append(truckStatus);
+        sb.append('}');
+        return sb.toString();
     }
 }

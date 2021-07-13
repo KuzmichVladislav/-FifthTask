@@ -1,125 +1,125 @@
-false 78
-false 50
-false 98
-true 51
-true 51
-true 44
-true 85
-true 22
-true 57
-true 69
-true 88
-false 62
-false 61
-true 68
-true 65
-true 95
-false 57
-false 27
-true 62
-true 50
-true 76
-true 29
-false 59
-false 23
-true 55
-true 62
-true 99
-false 81
-true 67
-true 92
-true 68
-false 39
-true 55
-false 79
-false 35
-false 33
-true 75
-true 56
-false 24
-false 84
-false 36
-false 54
-true 29
-true 90
-false 37
-true 54
-true 58
-false 82
-true 80
-true 43
-true 32
-false 98
-true 80
-true 26
-true 41
-false 29
-false 20
-false 87
-false 48
-true 56
-false 73
-false 92
-true 69
-false 38
-false 95
-true 67
-false 52
-true 62
-true 83
-true 66
-true 47
-true 72
-false 42
-true 77
-false 88
-true 41
-true 47
-false 53
-true 26
-false 78
-false 56
-false 91
-true 43
-false 92
-true 38
-true 88
-false 59
-false 59
-true 66
-false 94
-false 100
-false 55
-false 30
-true 48
-false 89
-false 95
-false 43
-false 43
-false 74
-false 59
-false 50
-true 35
-false 93
-false 53
-true 37
-true 48
-true 47
-true 25
-true 56
-false 45
-true 78
-true 22
-false 50
-false 75
-false 92
-true 72
-false 95
-false 65
-true 86
-true 97
-true 80
-false 88
-false 20
-false 35
-false 23
+false 78 UPLOADING
+false 50 UPLOADING
+false 98 UPLOADING
+true 51 UPLOADING
+true 51 UPLOADING
+true 44 UPLOADING
+true 85 UPLOADING
+true 22 UPLOADING
+true 57 UPLOADING
+true 69 UPLOADING
+true 88 UPLOADING
+false 62 UPLOADING
+false 61 UPLOADING
+true 68 UPLOADING
+true 65 UPLOADING
+true 95 UPLOADING
+false 57 UPLOADING
+false 27 UPLOADING
+true 62 UPLOADING
+true 50 UPLOADING
+true 76 UPLOADING
+true 29 UPLOADING
+false 59 UPLOADING
+false 23 UPLOADING
+true 55 UPLOADING
+true 62 UPLOADING
+true 99 UPLOADING
+false 81 UPLOADING
+true 67 UPLOADING
+true 92 UPLOADING
+true 68 UPLOADING
+false 39 UPLOADING
+true 55 UPLOADING
+false 79 UPLOADING
+false 35 UPLOADING
+false 33 UPLOADING
+true 75 UPLOADING
+true 56 UPLOADING
+false 24 UPLOADING
+false 84 UPLOADING
+false 36 UPLOADING
+false 54 UPLOADING
+true 29 UPLOADING
+true 90 UPLOADING
+false 37 UPLOADING
+true 54 UPLOADING
+true 58 UPLOADING
+false 82 UPLOADING
+true 80 UPLOADING
+true 43 UPLOADING
+true 32 UPLOADING
+false 98 UPLOADING
+true 80 UPLOADING
+true 26 UPLOADING
+true 41 UPLOADING
+false 29 UPLOADING
+false 20 UPLOADING
+false 87 UPLOADING
+false 48 UPLOADING
+true 56 UPLOADING
+false 73 UPLOADING
+false 92 UPLOADING
+true 69 UPLOADING
+false 38 UPLOADING
+false 95 UPLOADING
+true 67 UPLOADING
+false 52 UPLOADING
+true 62 UPLOADING
+true 83 UPLOADING
+true 66 UPLOADING
+true 47 UPLOADING
+true 72 UPLOADING
+false 42 UPLOADING
+true 77 UPLOADING
+false 88 UPLOADING
+true 41 UPLOADING
+true 47 UPLOADING
+false 53 UPLOADING
+true 26 UPLOADING
+false 78 UPLOADING
+false 56 UPLOADING
+false 91 UPLOADING
+true 43 UPLOADING
+false 92 UPLOADING
+true 38 UPLOADING
+true 88 UPLOADING
+false 59 UPLOADING
+false 59 UPLOADING
+true 66 UPLOADING
+false 94 UPLOADING
+false 100 UPLOADING
+false 55 UPLOADING
+false 30 UPLOADING
+true 48 UPLOADING
+false 89 UPLOADING
+false 95 UPLOADING
+false 43 UPLOADING
+false 43 UPLOADING
+false 74 UPLOADING
+false 59 UPLOADING
+false 50 UPLOADING
+true 35 UPLOADING
+false 93 UPLOADING
+false 53 UPLOADING
+true 37 UPLOADING
+true 48 UPLOADING
+true 47 UPLOADING
+true 25 UPLOADING
+true 56 UPLOADING
+false 45 UPLOADING
+true 78 UPLOADING
+true 22 UPLOADING
+false 50 UPLOADING
+false 75 UPLOADING
+false 92 UPLOADING
+true 72 UPLOADING
+false 95 UPLOADING
+false 65 UPLOADING
+true 86 UPLOADING
+true 97 UPLOADING
+true 80 UPLOADING
+false 88 UPLOADING
+false 20 UPLOADING
+false 35 UPLOADING
+false 23 UPLOADING

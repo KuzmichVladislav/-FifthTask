@@ -15,6 +15,7 @@ import java.util.concurrent.locks.ReentrantLock;
 public class LogisticsCenter {
     private static final Logger logger = LogManager.getLogger();
     private final Lock acquireReleaseLock = new ReentrantLock();
+    private final Deque<Terminal> terminals = new ArrayDeque<>();
     private final Deque<Terminal> availableTerminals = new ArrayDeque<>();
     private final Deque<Condition> waitingThreads = new ArrayDeque<>();
     private final int capacity;
@@ -22,7 +23,18 @@ public class LogisticsCenter {
     private final double lowerLoadThreshold;
     private final double upperLoadThreshold;
     private final AtomicInteger currentWorkload = new AtomicInteger(0);
+
+    Condition condition = acquireReleaseLock.newCondition();
+
     private int palletNumber;
+
+    private static class LoadSingleton {
+        static final LogisticsCenter INSTANCE = new LogisticsCenter(10, 3000, 0.1, 0.95);
+    }
+
+    public static LogisticsCenter getInstance() {
+        return LoadSingleton.INSTANCE;
+    }
 
     private LogisticsCenter(int capacity, int maxWorkload, double lowerLoadThreshold, double upperLoadThreshold) {
         this.capacity = capacity;
@@ -36,56 +48,39 @@ public class LogisticsCenter {
         scheduleTrackTask();
     }
 
-    public static LogisticsCenter getInstance() {
-        return LoadSingleton.INSTANCE;
-    }
-
     public Terminal acquireTerminal(boolean perishable) {
+        acquireReleaseLock.lock();
         try {
-            acquireReleaseLock.lock();
-            if (availableTerminals.isEmpty()) {
-                try {
-                    Condition condition = acquireReleaseLock.newCondition();
-                    if (perishable) {
-                        waitingThreads.addFirst(condition);
-                    } else {
-                        waitingThreads.addLast(condition);
-                    }
-                    condition.await();
-                } catch (InterruptedException e) {
-                    logger.error(e.getStackTrace());
-                    Thread.currentThread().interrupt();
-                }
+            while (availableTerminals.isEmpty()) {
+                condition.await();
             }
-            return availableTerminals.removeFirst();
+            if (perishable) {
+                waitingThreads.addFirst(condition);
+            } else {
+                waitingThreads.addLast(condition);
+            }
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         } finally {
             acquireReleaseLock.unlock();
         }
+        return availableTerminals.removeFirst();
     }
 
     public void releaseTerminal(Terminal terminal) {
+        acquireReleaseLock.lock();
+        condition = waitingThreads.pollFirst();
         try {
-            acquireReleaseLock.lock();
-
-            if (availableTerminals.size() <= capacity) {
-                availableTerminals.push(terminal);
-                Condition condition = waitingThreads.pollFirst();
-                if (condition != null) {
-                    condition.signal();
-                }
-            }
+            availableTerminals.offer(terminal);
+            condition.signal();
         } finally {
             acquireReleaseLock.unlock();
         }
-        palletNumber = terminal.getPalletNumber();
+     //   palletNumber = terminal.getPalletNumber();
     }
 
-    public void addPallet() {
-        currentWorkload.addAndGet(getPalletNumber());
-    }
-
-    public void removePallet() {
-        currentWorkload.addAndGet(-1000);
+    public void processTruck(int palletNumber) {
+        currentWorkload.addAndGet(palletNumber);
     }
 
     private void scheduleTrackTask() {
@@ -103,8 +98,8 @@ public class LogisticsCenter {
                     loadFactor = (double) workload / maxWorkload;
                 }
                 while (loadFactor > upperLoadThreshold) {
-                    removePallet();
-                    logger.info("The warehouse is " + loadFactor + " percent full, removed 1000 pallet");
+                    currentWorkload.addAndGet(-100);
+                    logger.info("The warehouse is " + loadFactor + " percent full, removed 100 pallet");
                     workload = currentWorkload.get();
                     loadFactor = (double) workload / maxWorkload;
                 }
@@ -112,11 +107,7 @@ public class LogisticsCenter {
         }, 0, 1000);
     }
 
-    public int getPalletNumber() {
+/*    public int getPalletNumber() {
         return palletNumber;
-    }
-
-    private static class LoadSingleton {
-        static final LogisticsCenter INSTANCE = new LogisticsCenter(10, 3000, 0.1, 0.95);
-    }
+    }*/
 }
