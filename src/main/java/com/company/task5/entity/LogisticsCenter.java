@@ -53,7 +53,7 @@ public class LogisticsCenter {
                     }
                     condition.await();
                 } catch (InterruptedException e) {
-                    logger.error("Caught an exception: ", e);
+                    logger.error(e.getStackTrace());
                     Thread.currentThread().interrupt();
                 }
             }
