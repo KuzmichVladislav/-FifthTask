@@ -1,6 +1,5 @@
 package com.company.task5.reader;
 
-
 import com.company.task5.exception.LogisticException;
 
 import java.io.IOException;
@@ -12,6 +11,7 @@ import java.util.stream.Collectors;
 import static java.nio.file.Files.lines;
 
 public class DataReader {
+
     public List<String> readFromFile(String filePath) throws LogisticException {
         try {
             Path path = Path.of(filePath);

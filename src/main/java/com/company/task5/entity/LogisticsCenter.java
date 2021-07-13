@@ -13,6 +13,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class LogisticsCenter {
+
     private static final Logger logger = LogManager.getLogger();
     private final Lock acquireReleaseLock = new ReentrantLock();
     private final Deque<Terminal> terminals = new ArrayDeque<>();
@@ -23,18 +24,7 @@ public class LogisticsCenter {
     private final double lowerLoadThreshold;
     private final double upperLoadThreshold;
     private final AtomicInteger currentWorkload = new AtomicInteger(0);
-
     Condition condition = acquireReleaseLock.newCondition();
-
-    private int palletNumber;
-
-    private static class LoadSingleton {
-        static final LogisticsCenter INSTANCE = new LogisticsCenter(10, 3000, 0.1, 0.95);
-    }
-
-    public static LogisticsCenter getInstance() {
-        return LoadSingleton.INSTANCE;
-    }
 
     private LogisticsCenter(int capacity, int maxWorkload, double lowerLoadThreshold, double upperLoadThreshold) {
         this.capacity = capacity;
@@ -46,6 +36,15 @@ public class LogisticsCenter {
             availableTerminals.add(new Terminal());
         }
         scheduleTrackTask();
+    }
+
+    private static class LoadSingleton {
+
+        static final LogisticsCenter INSTANCE = new LogisticsCenter(10, 3000, 0.15, 0.85);
+    }
+
+    public static LogisticsCenter getInstance() {
+        return LoadSingleton.INSTANCE;
     }
 
     public Terminal acquireTerminal(boolean perishable) {
@@ -76,7 +75,6 @@ public class LogisticsCenter {
         } finally {
             acquireReleaseLock.unlock();
         }
-     //   palletNumber = terminal.getPalletNumber();
     }
 
     public void processTruck(int palletNumber) {
@@ -107,7 +105,80 @@ public class LogisticsCenter {
         }, 0, 1000);
     }
 
-/*    public int getPalletNumber() {
-        return palletNumber;
-    }*/
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+
+        LogisticsCenter that = (LogisticsCenter) o;
+
+        if (capacity != that.capacity) {
+            return false;
+        }
+        if (maxWorkload != that.maxWorkload) {
+            return false;
+        }
+        if (Double.compare(that.lowerLoadThreshold, lowerLoadThreshold) != 0) {
+            return false;
+        }
+        if (Double.compare(that.upperLoadThreshold, upperLoadThreshold) != 0) {
+            return false;
+        }
+        if (acquireReleaseLock != null ? !acquireReleaseLock.equals(that.acquireReleaseLock) : that.acquireReleaseLock != null) {
+            return false;
+        }
+        if (terminals != null ? !terminals.equals(that.terminals) : that.terminals != null) {
+            return false;
+        }
+        if (availableTerminals != null ? !availableTerminals.equals(that.availableTerminals) : that.availableTerminals != null) {
+            return false;
+        }
+        if (waitingThreads != null ? !waitingThreads.equals(that.waitingThreads) : that.waitingThreads != null) {
+            return false;
+        }
+        if (currentWorkload != null ? !currentWorkload.equals(that.currentWorkload) : that.currentWorkload != null) {
+            return false;
+        }
+        return condition != null ? condition.equals(that.condition) : that.condition == null;
+    }
+
+    @Override
+    public int hashCode() {
+        int result;
+        long temp;
+        result = acquireReleaseLock != null ? acquireReleaseLock.hashCode() : 0;
+        result = 31 * result + (terminals != null ? terminals.hashCode() : 0);
+        result = 31 * result + (availableTerminals != null ? availableTerminals.hashCode() : 0);
+        result = 31 * result + (waitingThreads != null ? waitingThreads.hashCode() : 0);
+        result = 31 * result + capacity;
+        result = 31 * result + maxWorkload;
+        temp = Double.doubleToLongBits(lowerLoadThreshold);
+        result = 31 * result + (int) (temp ^ (temp >>> 32));
+        temp = Double.doubleToLongBits(upperLoadThreshold);
+        result = 31 * result + (int) (temp ^ (temp >>> 32));
+        result = 31 * result + (currentWorkload != null ? currentWorkload.hashCode() : 0);
+        result = 31 * result + (condition != null ? condition.hashCode() : 0);
+        return result;
+    }
+
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("LogisticsCenter{");
+        sb.append("acquireReleaseLock=").append(acquireReleaseLock);
+        sb.append(", terminals=").append(terminals);
+        sb.append(", availableTerminals=").append(availableTerminals);
+        sb.append(", waitingThreads=").append(waitingThreads);
+        sb.append(", capacity=").append(capacity);
+        sb.append(", maxWorkload=").append(maxWorkload);
+        sb.append(", lowerLoadThreshold=").append(lowerLoadThreshold);
+        sb.append(", upperLoadThreshold=").append(upperLoadThreshold);
+        sb.append(", currentWorkload=").append(currentWorkload);
+        sb.append(", condition=").append(condition);
+        sb.append('}');
+        return sb.toString();
+    }
 }

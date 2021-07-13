@@ -13,6 +13,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class Main {
+
     private static final String RELATIVE_FILE_PATH = "data/data.txt";
 
     public static void main(String[] args) {

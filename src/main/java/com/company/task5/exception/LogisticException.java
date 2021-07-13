@@ -1,6 +1,7 @@
 package com.company.task5.exception;
 
 public class LogisticException extends Exception {
+
     public LogisticException() {
         super();
     }

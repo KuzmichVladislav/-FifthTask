@@ -1,87 +1,59 @@
-2021-07-12 22:14:28,529 INFO [pool-1-thread-33] com.company.task5.entity.Terminal - At terminal 3 unloading of the truck33 has begun
-2021-07-12 22:14:28,637 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - the warehouse load is too small: 0.083 percent, 100 pallets were added
-2021-07-12 22:14:29,224 INFO [pool-1-thread-17] com.company.task5.entity.Terminal - At terminal 10 unloading of the truck17 is completed
-2021-07-12 22:14:29,224 INFO [pool-1-thread-28] com.company.task5.entity.Terminal - At terminal 10 unloading of the truck28 has begun
-2021-07-12 22:14:29,320 INFO [pool-1-thread-22] com.company.task5.entity.Terminal - At terminal 8 unloading of the truck22 is completed
-2021-07-12 22:14:29,320 INFO [pool-1-thread-29] com.company.task5.entity.Terminal - At terminal 8 unloading of the truck29 has begun
-2021-07-12 22:14:29,454 INFO [pool-1-thread-24] com.company.task5.entity.Terminal - At terminal 6 unloading of the truck24 is completed
-2021-07-12 22:14:29,454 INFO [pool-1-thread-23] com.company.task5.entity.Terminal - At terminal 6 unloading of the truck23 has begun
-2021-07-12 22:14:29,639 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - the warehouse load is too small: 0.08 percent, 100 pallets were added
-2021-07-12 22:14:31,337 INFO [pool-1-thread-19] com.company.task5.entity.Terminal - At terminal 5 unloading of the truck19 is completed
-2021-07-12 22:14:31,337 INFO [pool-1-thread-13] com.company.task5.entity.Terminal - At terminal 5 unloading of the truck13 has begun
-2021-07-12 22:14:31,647 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - the warehouse load is too small: 0.09266666666666666 percent, 100 pallets were added
-2021-07-12 22:14:31,816 INFO [pool-1-thread-16] com.company.task5.entity.Terminal - At terminal 9 unloading of the truck16 is completed
-2021-07-12 22:14:31,816 INFO [pool-1-thread-40] com.company.task5.entity.Terminal - At terminal 9 unloading of the truck40 has begun
-2021-07-12 22:14:32,647 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - the warehouse load is too small: 0.09433333333333334 percent, 100 pallets were added
-2021-07-12 22:14:32,724 INFO [pool-1-thread-25] com.company.task5.entity.Terminal - At terminal 4 unloading of the truck25 is completed
-2021-07-12 22:14:32,724 INFO [pool-1-thread-52] com.company.task5.entity.Terminal - At terminal 4 unloading of the truck52 has begun
-2021-07-12 22:14:32,816 INFO [pool-1-thread-21] com.company.task5.entity.Terminal - At terminal 1 unloading of the truck21 is completed
-2021-07-12 22:14:32,816 INFO [pool-1-thread-46] com.company.task5.entity.Terminal - At terminal 1 unloading of the truck46 has begun
-2021-07-12 22:14:33,650 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - the warehouse load is too small: 0.084 percent, 100 pallets were added
-2021-07-12 22:14:33,833 INFO [pool-1-thread-26] com.company.task5.entity.Terminal - At terminal 7 unloading of the truck26 is completed
-2021-07-12 22:14:33,833 INFO [pool-1-thread-42] com.company.task5.entity.Terminal - At terminal 7 unloading of the truck42 has begun
-2021-07-12 22:14:34,050 INFO [pool-1-thread-33] com.company.task5.entity.Terminal - At terminal 3 unloading of the truck33 is completed
-2021-07-12 22:14:34,050 INFO [pool-1-thread-49] com.company.task5.entity.Terminal - At terminal 3 unloading of the truck49 has begun
-2021-07-12 22:14:34,652 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - the warehouse load is too small: 0.07833333333333334 percent, 100 pallets were added
-2021-07-12 22:14:35,361 INFO [pool-1-thread-23] com.company.task5.entity.Terminal - At terminal 6 unloading of the truck23 is completed
-2021-07-12 22:14:35,361 INFO [pool-1-thread-48] com.company.task5.entity.Terminal - At terminal 6 unloading of the truck48 has begun
-2021-07-12 22:15:43,832 INFO [pool-1-thread-123] com.company.task5.entity.Terminal - At terminal 6 unloading of the truck123 has begun
-2021-07-12 22:15:43,831 INFO [pool-1-thread-122] com.company.task5.entity.Terminal - At terminal 8 unloading of the truck122 has begun
-2021-07-12 22:15:43,831 INFO [pool-1-thread-125] com.company.task5.entity.Terminal - At terminal 4 unloading of the truck125 has begun
-2021-07-12 22:15:43,831 INFO [pool-1-thread-121] com.company.task5.entity.Terminal - At terminal 7 unloading of the truck121 has begun
-2021-07-12 22:15:43,831 INFO [pool-1-thread-119] com.company.task5.entity.Terminal - At terminal 10 unloading of the truck119 has begun
-2021-07-12 22:15:43,832 INFO [pool-1-thread-120] com.company.task5.entity.Terminal - At terminal 9 unloading of the truck120 has begun
-2021-07-12 22:15:43,831 INFO [pool-1-thread-8] com.company.task5.entity.Terminal - At terminal 1 unloading of the truck8 has begun
-2021-07-12 22:15:43,831 INFO [pool-1-thread-7] com.company.task5.entity.Terminal - At terminal 3 unloading of the truck7 has begun
-2021-07-12 22:15:43,832 INFO [pool-1-thread-2] com.company.task5.entity.Terminal - At terminal 2 unloading of the truck2 has begun
-2021-07-12 22:15:43,831 INFO [pool-1-thread-124] com.company.task5.entity.Terminal - At terminal 5 unloading of the truck124 has begun
-2021-07-12 22:15:43,843 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - the warehouse load is too small: 0.0 percent, 100 pallets were added
-2021-07-12 22:15:43,845 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - the warehouse load is too small: 0.03333333333333333 percent, 100 pallets were added
-2021-07-12 22:15:43,846 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - the warehouse load is too small: 0.06666666666666667 percent, 100 pallets were added
-2021-07-12 22:15:45,840 INFO [pool-1-thread-123] com.company.task5.entity.Terminal - At terminal 6 unloading of the truck123 is completed
-2021-07-12 22:15:45,841 INFO [pool-1-thread-118] com.company.task5.entity.Terminal - At terminal 6 unloading of the truck118 has begun
-2021-07-12 22:15:46,050 INFO [pool-1-thread-8] com.company.task5.entity.Terminal - At terminal 1 unloading of the truck8 is completed
-2021-07-12 22:15:46,050 INFO [pool-1-thread-117] com.company.task5.entity.Terminal - At terminal 1 unloading of the truck117 has begun
-2021-07-12 22:15:46,142 INFO [pool-1-thread-125] com.company.task5.entity.Terminal - At terminal 4 unloading of the truck125 is completed
-2021-07-12 22:15:46,142 INFO [pool-1-thread-116] com.company.task5.entity.Terminal - At terminal 4 unloading of the truck116 has begun
-2021-07-12 22:15:47,344 INFO [pool-1-thread-124] com.company.task5.entity.Terminal - At terminal 5 unloading of the truck124 is completed
-2021-07-12 22:15:47,344 INFO [pool-1-thread-115] com.company.task5.entity.Terminal - At terminal 5 unloading of the truck115 has begun
-2021-07-12 22:15:48,853 INFO [pool-1-thread-2] com.company.task5.entity.Terminal - At terminal 2 unloading of the truck2 is completed
-2021-07-12 22:15:48,853 INFO [pool-1-thread-113] com.company.task5.entity.Terminal - At terminal 2 unloading of the truck113 has begun
-2021-07-12 22:15:51,844 INFO [pool-1-thread-121] com.company.task5.entity.Terminal - At terminal 7 unloading of the truck121 is completed
-2021-07-12 22:15:51,844 INFO [pool-1-thread-114] com.company.task5.entity.Terminal - At terminal 7 unloading of the truck114 has begun
-2021-07-12 22:15:52,352 INFO [pool-1-thread-118] com.company.task5.entity.Terminal - At terminal 6 unloading of the truck118 is completed
-2021-07-12 22:15:52,352 INFO [pool-1-thread-7] com.company.task5.entity.Terminal - At terminal 3 unloading of the truck7 is completed
-2021-07-12 22:15:52,352 INFO [pool-1-thread-112] com.company.task5.entity.Terminal - At terminal 3 unloading of the truck112 has begun
-2021-07-12 22:15:52,352 INFO [pool-1-thread-111] com.company.task5.entity.Terminal - At terminal 6 unloading of the truck111 has begun
-2021-07-12 22:15:52,444 INFO [pool-1-thread-119] com.company.task5.entity.Terminal - At terminal 10 unloading of the truck119 is completed
-2021-07-12 22:15:52,444 INFO [pool-1-thread-109] com.company.task5.entity.Terminal - At terminal 10 unloading of the truck109 has begun
-2021-07-12 22:15:52,640 INFO [pool-1-thread-122] com.company.task5.entity.Terminal - At terminal 8 unloading of the truck122 is completed
-2021-07-12 22:15:52,640 INFO [pool-1-thread-110] com.company.task5.entity.Terminal - At terminal 8 unloading of the truck110 has begun
-2021-07-12 22:15:53,350 INFO [pool-1-thread-116] com.company.task5.entity.Terminal - At terminal 4 unloading of the truck116 is completed
-2021-07-12 22:15:53,350 INFO [pool-1-thread-108] com.company.task5.entity.Terminal - At terminal 4 unloading of the truck108 has begun
-2021-07-12 22:15:53,550 INFO [pool-1-thread-120] com.company.task5.entity.Terminal - At terminal 9 unloading of the truck120 is completed
-2021-07-12 22:15:53,550 INFO [pool-1-thread-107] com.company.task5.entity.Terminal - At terminal 9 unloading of the truck107 has begun
-2021-07-12 22:15:53,858 INFO [pool-1-thread-113] com.company.task5.entity.Terminal - At terminal 2 unloading of the truck113 is completed
-2021-07-12 22:15:53,858 INFO [pool-1-thread-106] com.company.task5.entity.Terminal - At terminal 2 unloading of the truck106 has begun
-2021-07-12 22:15:54,568 INFO [pool-1-thread-112] com.company.task5.entity.Terminal - At terminal 3 unloading of the truck112 is completed
-2021-07-12 22:15:54,568 INFO [pool-1-thread-104] com.company.task5.entity.Terminal - At terminal 3 unloading of the truck104 has begun
-2021-07-12 22:15:55,555 INFO [pool-1-thread-117] com.company.task5.entity.Terminal - At terminal 1 unloading of the truck117 is completed
-2021-07-12 22:15:55,556 INFO [pool-1-thread-105] com.company.task5.entity.Terminal - At terminal 1 unloading of the truck105 has begun
-2021-07-12 22:15:59,217 INFO [pool-1-thread-6] com.company.task5.entity.Terminal - At terminal 6 unloading of the truck6 has begun
-2021-07-12 22:15:59,218 INFO [pool-1-thread-90] com.company.task5.entity.Terminal - At terminal 1 unloading of the truck90 has begun
-2021-07-12 22:15:59,218 INFO [pool-1-thread-3] com.company.task5.entity.Terminal - At terminal 3 unloading of the truck3 has begun
-2021-07-12 22:15:59,217 INFO [pool-1-thread-7] com.company.task5.entity.Terminal - At terminal 7 unloading of the truck7 has begun
-2021-07-12 22:15:59,218 INFO [pool-1-thread-4] com.company.task5.entity.Terminal - At terminal 4 unloading of the truck4 has begun
-2021-07-12 22:15:59,217 INFO [pool-1-thread-5] com.company.task5.entity.Terminal - At terminal 5 unloading of the truck5 has begun
-2021-07-12 22:15:59,218 INFO [pool-1-thread-10] com.company.task5.entity.Terminal - At terminal 10 unloading of the truck10 has begun
-2021-07-12 22:15:59,218 INFO [pool-1-thread-93] com.company.task5.entity.Terminal - At terminal 2 unloading of the truck93 has begun
-2021-07-12 22:15:59,218 INFO [pool-1-thread-8] com.company.task5.entity.Terminal - At terminal 8 unloading of the truck8 has begun
-2021-07-12 22:15:59,217 INFO [pool-1-thread-9] com.company.task5.entity.Terminal - At terminal 9 unloading of the truck9 has begun
-2021-07-12 22:15:59,242 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - the warehouse load is too small: 0.0 percent, 100 pallets were added
-2021-07-12 22:15:59,263 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - the warehouse load is too small: 0.03333333333333333 percent, 100 pallets were added
-2021-07-12 22:15:59,264 INFO [Timer-0] com.company.task5.entity.LogisticsCenter - the warehouse load is too small: 0.06666666666666667 percent, 100 pallets were added
-2021-07-12 22:16:01,439 INFO [pool-1-thread-8] com.company.task5.entity.Terminal - At terminal 8 unloading of the truck8 is completed
-2021-07-12 22:16:01,440 INFO [pool-1-thread-11] com.company.task5.entity.Terminal - At terminal 8 unloading of the truck11 has begun
-2021-07-12 22:16:02,236 INFO [pool-1-thread-93] com.company.task5.entity.Terminal - At terminal 2 unloading of the truck93 is completed
-2021-07-12 22:16:02,236 INFO [pool-1-thread-13] com.company.task5.entity.Terminal - At terminal 2 unloading of the truck13 has begun
+2021-07-13 10:02:45,870 INFO [pool-1-thread-68] com.company.task5.entity.Terminal - At terminal 10, 62 pallets were loaded from truck 68
+2021-07-13 10:02:47,459 INFO [pool-1-thread-71] com.company.task5.entity.Terminal - At terminal 6, 47 pallets were shipped onto truck 71
+2021-07-13 10:02:47,560 INFO [pool-1-thread-70] com.company.task5.entity.Terminal - At terminal 7, 66 pallets were loaded from truck 70
+2021-07-13 10:02:47,561 INFO [pool-1-thread-73] com.company.task5.entity.Terminal - At terminal 3, 42 pallets were loaded from truck 73
+2021-07-13 10:02:47,852 INFO [pool-1-thread-69] com.company.task5.entity.Terminal - At terminal 9, 83 pallets were shipped onto truck 69
+2021-07-13 10:02:48,553 INFO [pool-1-thread-65] com.company.task5.entity.Terminal - At terminal 5, 95 pallets were shipped onto truck 65
+2021-07-13 10:02:49,158 INFO [pool-1-thread-76] com.company.task5.entity.Terminal - At terminal 1, 41 pallets were loaded from truck 76
+2021-07-13 10:02:50,165 INFO [pool-1-thread-79] com.company.task5.entity.Terminal - At terminal 7, 26 pallets were loaded from truck 79
+2021-07-13 10:02:50,260 INFO [pool-1-thread-72] com.company.task5.entity.Terminal - At terminal 8, 72 pallets were loaded from truck 72
+2021-07-13 10:02:50,604 INFO [pool-1-thread-77] com.company.task5.entity.Terminal - At terminal 10, 47 pallets were loaded from truck 77
+2021-07-13 10:02:51,350 INFO [pool-1-thread-74] com.company.task5.entity.Terminal - At terminal 4, 77 pallets were shipped onto truck 74
+2021-07-13 10:02:52,762 INFO [pool-1-thread-78] com.company.task5.entity.Terminal - At terminal 6, 53 pallets were shipped onto truck 78
+2021-07-13 10:02:53,453 INFO [pool-1-thread-75] com.company.task5.entity.Terminal - At terminal 2, 88 pallets were loaded from truck 75
+2021-07-13 10:02:53,454 INFO [pool-1-thread-81] com.company.task5.entity.Terminal - At terminal 9, 56 pallets were shipped onto truck 81
+2021-07-13 10:02:54,064 INFO [pool-1-thread-85] com.company.task5.entity.Terminal - At terminal 8, 38 pallets were loaded from truck 85
+2021-07-13 10:02:55,363 INFO [pool-1-thread-80] com.company.task5.entity.Terminal - At terminal 3, 78 pallets were loaded from truck 80
+2021-07-13 10:02:56,505 INFO [pool-1-thread-88] com.company.task5.entity.Terminal - At terminal 10, 59 pallets were loaded from truck 88
+2021-07-13 10:02:57,659 INFO [pool-1-thread-82] com.company.task5.entity.Terminal - At terminal 5, 91 pallets were loaded from truck 82
+2021-07-13 10:02:57,755 INFO [pool-1-thread-83] com.company.task5.entity.Terminal - At terminal 2, 43 pallets were loaded from truck 83
+2021-07-13 10:02:57,951 INFO [pool-1-thread-89] com.company.task5.entity.Terminal - At terminal 4, 66 pallets were loaded from truck 89
+2021-07-13 10:02:58,359 INFO [pool-1-thread-84] com.company.task5.entity.Terminal - At terminal 1, 92 pallets were shipped onto truck 84
+2021-07-13 10:02:58,968 INFO [pool-1-thread-86] com.company.task5.entity.Terminal - At terminal 7, 88 pallets were loaded from truck 86
+2021-07-13 10:02:59,358 INFO [pool-1-thread-87] com.company.task5.entity.Terminal - At terminal 9, 59 pallets were shipped onto truck 87
+2021-07-13 10:02:59,507 INFO [pool-1-thread-93] com.company.task5.entity.Terminal - At terminal 10, 30 pallets were loaded from truck 93
+2021-07-13 10:03:00,868 INFO [pool-1-thread-92] com.company.task5.entity.Terminal - At terminal 3, 55 pallets were shipped onto truck 92
+2021-07-13 10:03:02,164 INFO [pool-1-thread-90] com.company.task5.entity.Terminal - At terminal 6, 94 pallets were loaded from truck 90
+2021-07-13 10:03:02,462 INFO [pool-1-thread-94] com.company.task5.entity.Terminal - At terminal 5, 48 pallets were loaded from truck 94
+2021-07-13 10:03:02,661 INFO [pool-1-thread-97] com.company.task5.entity.Terminal - At terminal 1, 43 pallets were loaded from truck 97
+2021-07-13 10:03:03,269 INFO [pool-1-thread-98] com.company.task5.entity.Terminal - At terminal 7, 43 pallets were shipped onto truck 98
+2021-07-13 10:03:04,066 INFO [pool-1-thread-91] com.company.task5.entity.Terminal - At terminal 8, 100 pallets were shipped onto truck 91
+2021-07-13 10:03:05,408 INFO [pool-1-thread-100] com.company.task5.entity.Terminal - At terminal 10, 59 pallets were loaded from truck 100
+2021-07-13 10:03:05,666 INFO [pool-1-thread-102] com.company.task5.entity.Terminal - At terminal 6, 35 pallets were loaded from truck 102
+2021-07-13 10:03:05,870 INFO [pool-1-thread-101] com.company.task5.entity.Terminal - At terminal 3, 50 pallets were loaded from truck 101
+2021-07-13 10:03:06,663 INFO [pool-1-thread-95] com.company.task5.entity.Terminal - At terminal 2, 89 pallets were loaded from truck 95
+2021-07-13 10:03:06,759 INFO [pool-1-thread-99] com.company.task5.entity.Terminal - At terminal 9, 74 pallets were loaded from truck 99
+2021-07-13 10:03:07,453 INFO [pool-1-thread-96] com.company.task5.entity.Terminal - At terminal 4, 95 pallets were shipped onto truck 96
+2021-07-13 10:03:07,769 INFO [pool-1-thread-105] com.company.task5.entity.Terminal - At terminal 8, 37 pallets were shipped onto truck 105
+2021-07-13 10:03:07,965 INFO [pool-1-thread-104] com.company.task5.entity.Terminal - At terminal 1, 53 pallets were loaded from truck 104
+2021-07-13 10:03:08,070 INFO [pool-1-thread-106] com.company.task5.entity.Terminal - At terminal 7, 48 pallets were loaded from truck 106
+2021-07-13 10:03:08,168 INFO [pool-1-thread-108] com.company.task5.entity.Terminal - At terminal 6, 25 pallets were loaded from truck 108
+2021-07-13 10:03:09,656 INFO [pool-1-thread-112] com.company.task5.entity.Terminal - At terminal 4, 22 pallets were loaded from truck 112
+2021-07-13 10:03:10,110 INFO [pool-1-thread-107] com.company.task5.entity.Terminal - At terminal 10, 47 pallets were shipped onto truck 107
+2021-07-13 10:03:11,165 INFO [pool-1-thread-110] com.company.task5.entity.Terminal - At terminal 2, 45 pallets were loaded from truck 110
+2021-07-13 10:03:11,473 INFO [pool-1-thread-109] com.company.task5.entity.Terminal - At terminal 3, 56 pallets were loaded from truck 109
+2021-07-13 10:03:11,764 INFO [pool-1-thread-103] com.company.task5.entity.Terminal - At terminal 5, 93 pallets were loaded from truck 103
+2021-07-13 10:03:12,773 INFO [pool-1-thread-113] com.company.task5.entity.Terminal - At terminal 8, 50 pallets were loaded from truck 113
+2021-07-13 10:03:14,561 INFO [pool-1-thread-111] com.company.task5.entity.Terminal - At terminal 9, 78 pallets were shipped onto truck 111
+2021-07-13 10:03:15,370 INFO [pool-1-thread-116] com.company.task5.entity.Terminal - At terminal 6, 72 pallets were loaded from truck 116
+2021-07-13 10:03:15,467 INFO [pool-1-thread-114] com.company.task5.entity.Terminal - At terminal 1, 75 pallets were shipped onto truck 114
+2021-07-13 10:03:16,611 INFO [pool-1-thread-118] com.company.task5.entity.Terminal - At terminal 10, 65 pallets were loaded from truck 118
+2021-07-13 10:03:16,862 INFO [pool-1-thread-125] com.company.task5.entity.Terminal - At terminal 9, 23 pallets were loaded from truck 125
+2021-07-13 10:03:17,272 INFO [pool-1-thread-115] com.company.task5.entity.Terminal - At terminal 7, 92 pallets were loaded from truck 115
+2021-07-13 10:03:17,469 INFO [pool-1-thread-123] com.company.task5.entity.Terminal - At terminal 1, 20 pallets were loaded from truck 123
+2021-07-13 10:03:18,872 INFO [pool-1-thread-124] com.company.task5.entity.Terminal - At terminal 6, 35 pallets were shipped onto truck 124
+2021-07-13 10:03:19,158 INFO [pool-1-thread-117] com.company.task5.entity.Terminal - At terminal 4, 95 pallets were loaded from truck 117
+2021-07-13 10:03:19,766 INFO [pool-1-thread-121] com.company.task5.entity.Terminal - At terminal 5, 80 pallets were loaded from truck 121
+2021-07-13 10:03:19,767 INFO [pool-1-thread-119] com.company.task5.entity.Terminal - At terminal 2, 86 pallets were loaded from truck 119
+2021-07-13 10:03:21,175 INFO [pool-1-thread-120] com.company.task5.entity.Terminal - At terminal 3, 97 pallets were shipped onto truck 120
+2021-07-13 10:03:21,575 INFO [pool-1-thread-122] com.company.task5.entity.Terminal - At terminal 8, 88 pallets were loaded from truck 122

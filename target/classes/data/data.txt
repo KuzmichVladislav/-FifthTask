@@ -1,125 +1,125 @@
-false 78
-false 50
-false 98
-true 51
-true 51
-true 44
-true 85
-true 22
-true 57
-true 69
-true 88
-false 62
-false 61
-true 68
-true 65
-true 95
-false 57
-false 27
-true 62
-true 50
-true 76
-true 29
-false 59
-false 23
-true 55
-true 62
-true 99
-false 81
-true 67
-true 92
-true 68
-false 39
-true 55
-false 79
-false 35
-false 33
-true 75
-true 56
-false 24
-false 84
-false 36
-false 54
-true 29
-true 90
-false 37
-true 54
-true 58
-false 82
-true 80
-true 43
-true 32
-false 98
-true 80
-true 26
-true 41
-false 29
-false 20
-false 87
-false 48
-true 56
-false 73
-false 92
-true 69
-false 38
-false 95
-true 67
-false 52
-true 62
-true 83
-true 66
-true 47
-true 72
-false 42
-true 77
-false 88
-true 41
-true 47
-false 53
-true 26
-false 78
-false 56
-false 91
-true 43
-false 92
-true 38
-true 88
-false 59
-false 59
-true 66
-false 94
-false 100
-false 55
-false 30
-true 48
-false 89
-false 95
-false 43
-false 43
-false 74
-false 59
-false 50
-true 35
-false 93
-false 53
-true 37
-true 48
-true 47
-true 25
-true 56
-false 45
-true 78
-true 22
-false 50
-false 75
-false 92
-true 72
-false 95
-false 65
-true 86
-true 97
-true 80
-false 88
-false 20
-false 35
-false 23
+false 78 LOADING
+false 50 LOADING
+false 98 LOADING
+true 51 SHIPMENT
+true 51 LOADING
+true 44 LOADING
+true 85 SHIPMENT
+true 22 LOADING
+true 57 SHIPMENT
+true 69 LOADING
+true 88 LOADING
+false 62 LOADING
+false 61 SHIPMENT
+true 68 LOADING
+true 65 LOADING
+true 95 LOADING
+false 57 SHIPMENT
+false 27 LOADING
+true 62 SHIPMENT
+true 50 LOADING
+true 76 SHIPMENT
+true 29 LOADING
+false 59 LOADING
+false 23 LOADING
+true 55 LOADING
+true 62 SHIPMENT
+true 99 LOADING
+false 81 LOADING
+true 67 SHIPMENT
+true 92 LOADING
+true 68 LOADING
+false 39 LOADING
+true 55 SHIPMENT
+false 79 SHIPMENT
+false 35 LOADING
+false 33 LOADING
+true 75 LOADING
+true 56 SHIPMENT
+false 24 LOADING
+false 84 LOADING
+false 36 SHIPMENT
+false 54 LOADING
+true 29 SHIPMENT
+true 90 LOADING
+false 37 SHIPMENT
+true 54 LOADING
+true 58 LOADING
+false 82 SHIPMENT
+true 80 LOADING
+true 43 SHIPMENT
+true 32 LOADING
+false 98 SHIPMENT
+true 80 LOADING
+true 26 LOADING
+true 41 SHIPMENT
+false 29 LOADING
+false 20 SHIPMENT
+false 87 LOADING
+false 48 SHIPMENT
+true 56 SHIPMENT
+false 73 LOADING
+false 92 LOADING
+true 69 SHIPMENT
+false 38 LOADING
+false 95 SHIPMENT
+true 67 LOADING
+false 52 SHIPMENT
+true 62 LOADING
+true 83 SHIPMENT
+true 66 LOADING
+true 47 SHIPMENT
+true 72 LOADING
+false 42 LOADING
+true 77 SHIPMENT
+false 88 LOADING
+true 41 LOADING
+true 47 LOADING
+false 53 SHIPMENT
+true 26 LOADING
+false 78 LOADING
+false 56 SHIPMENT
+false 91 LOADING
+true 43 LOADING
+false 92 SHIPMENT
+true 38 LOADING
+true 88 LOADING
+false 59 SHIPMENT
+false 59 LOADING
+true 66 LOADING
+false 94 LOADING
+false 100 SHIPMENT
+false 55 SHIPMENT
+false 30 LOADING
+true 48 LOADING
+false 89 LOADING
+false 95 SHIPMENT
+false 43 LOADING
+false 43 SHIPMENT
+false 74 LOADING
+false 59 LOADING
+false 50 LOADING
+true 35 LOADING
+false 93 LOADING
+false 53 LOADING
+true 37 SHIPMENT
+true 48 LOADING
+true 47 SHIPMENT
+true 25 LOADING
+true 56 LOADING
+false 45 LOADING
+true 78 SHIPMENT
+true 22 LOADING
+false 50 LOADING
+false 75 SHIPMENT
+false 92 LOADING
+true 72 LOADING
+false 95 LOADING
+false 65 LOADING
+true 86 LOADING
+true 97 SHIPMENT
+true 80 LOADING
+false 88 LOADING
+false 20 LOADING
+false 35 SHIPMENT
+false 23 LOADING

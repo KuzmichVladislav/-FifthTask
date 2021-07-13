@@ -1,9 +1,9 @@
 package com.company.task5.entity;
 
-
 import com.company.task5.util.TruckIdGenerator;
 
 public class Truck implements Runnable {
+
     private final long truckId;
     private Action action;
     private boolean perishable;
@@ -14,16 +14,8 @@ public class Truck implements Runnable {
         NEW, PROCESSING, FINISHED
     }
 
-    public enum Action{
-        UPLOADING, UNLOADING;
-    }
-
-    public Action getAction() {
-        return action;
-    }
-
-    public void setAction(Action action) {
-        this.action = action;
+    public enum Action {
+        LOADING, SHIPMENT;
     }
 
     public Truck(boolean perishable, int truckCapacity, Action action) {
@@ -34,6 +26,9 @@ public class Truck implements Runnable {
         this.truckStatus = Status.NEW;
     }
 
+    public Action getAction() {
+        return action;
+    }
 
     public long getTruckId() {
         return truckId;
@@ -54,23 +49,32 @@ public class Truck implements Runnable {
     @Override
     public void run() {
         LogisticsCenter logisticCenter = LogisticsCenter.getInstance();
-        Terminal terminal = logisticCenter.acquireTerminal(isPerishable());
+        Terminal terminal = null;
+        terminal = logisticCenter.acquireTerminal(isPerishable());
         terminal.process(this);
-       // logisticCenter.processTruck(this.getTruckCapacity());
         logisticCenter.releaseTerminal(terminal);
     }
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Truck)) return false;
-
-        Truck truck = (Truck) o;
-
-        if (getTruckId() != truck.getTruckId()) return false;
-        if (isPerishable() != truck.isPerishable()) return false;
-        if (getTruckCapacity() != truck.getTruckCapacity()) return false;
-        return truckStatus == truck.truckStatus;
+        if (this == o) {
+            return true;
+        }
+        if (o instanceof Truck) {
+            Truck truck = (Truck) o;
+            if (getTruckId() != truck.getTruckId()) {
+                return false;
+            }
+            if (isPerishable() != truck.isPerishable()) {
+                return false;
+            }
+            if (getTruckCapacity() != truck.getTruckCapacity()) {
+                return false;
+            }
+            return truckStatus == truck.truckStatus;
+        } else {
+            return false;
+        }
     }
 
     @Override
